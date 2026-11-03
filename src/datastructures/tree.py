@@ -30,11 +30,11 @@ class Heap:
         return False
 
     def heapfy_up(self, i):
-        while i > 1 and self.heap[self.parent(i)] > self.heap[i]:   # ← برعکس شد
+        while i > 1 and self.heap[self.parent(i)] > self.heap[i]:
             self.heap[i], self.heap[self.parent(i)] = self.heap[self.parent(i)], self.heap[i]
             i = self.parent(i)
 
-    def pop_min(self):                                              # ← اسم عوض شد
+    def pop_min(self):
         if not self.is_empty():
             min_element = self.heap[1]
             self.heap[1] = self.heap[self.size]
@@ -48,12 +48,12 @@ class Heap:
 
             left = self.left_child(i)
             right = self.right_child(i)
-            smallest = i                 # ← largest → smallest
+            smallest = i
 
-            if left <= self.size and self.heap[left] < self.heap[smallest]:    # ← >
+            if left <= self.size and self.heap[left] < self.heap[smallest]:
                 smallest = left
 
-            if right <= self.size and self.heap[right] < self.heap[smallest]:  # ← >
+            if right <= self.size and self.heap[right] < self.heap[smallest]:
                 smallest = right
 
             if smallest == i:

@@ -1,8 +1,5 @@
 import numpy as np
 from algorithms.search import Search
-from datastructures.stack import Stack
-from datastructures.queue import Queues
-from algorithms.search import Search
 
 
 GOAL = np.array([1, 2, 3, 4, 5, 6, 7, 8, 0], dtype=np.int8)
@@ -40,7 +37,7 @@ class Puzzle8:
         return result
 
     def key(self, state):
-        return state.tobytes()
+        return tuple(state)
 
 start = (1, 2, 3,
          4, 0, 5,

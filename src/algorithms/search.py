@@ -10,14 +10,13 @@ class Search:
         if problem.is_goal(start):
             return [], 0
 
-        hq = Queues.HeapQueue(max_size=500_000)
-        hq.enqueue((0, 0, start, ""))
-        counter = 1
+        q = Queues.Queue()
+        q.enqueue((start, ""))
         visited = {problem.key(start)}
         explored = 0
 
-        while not hq.is_empty():
-            depth, _, state, path = hq.dequeue()
+        while not q.is_empty():
+            state, path = q.dequeue()
             explored += 1
 
             for move, nxt in problem.neighbors(state):
@@ -27,15 +26,15 @@ class Search:
                 if problem.is_goal(nxt):
                     return path + move, explored
                 visited.add(key)
-                hq.enqueue((depth + 1, counter, nxt, path + move))
-                counter += 1
+                q.enqueue((nxt, path + move))
 
         return None, explored
 
     @classmethod
-    def dfs(cls, problem):
+    def dfs(cls):
         pass
 
     @classmethod
-    def ids(cls, problem):
+    def ids(cls):
         pass
+
