@@ -31,7 +31,7 @@ class Queues:
             return len(self.data)
 
         def __str__(self):
-            return self.data
+            return str(self.data)
 
     class HeapQueue:
         def __init__(self, max_size):
