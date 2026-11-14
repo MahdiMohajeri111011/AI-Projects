@@ -4,7 +4,6 @@ from utilities.decorators import timer
 
 class Search:
 
-    @timer
     @classmethod
     def bfs(cls, problem):
         start = problem.start_state()
@@ -32,7 +31,6 @@ class Search:
 
         return None, explored
 
-    @timer
     @classmethod
     def dfs(cls, problem):
         start = problem.start_state()
@@ -62,7 +60,6 @@ class Search:
         return None, explored
 
 
-    @timer
     @classmethod
     def ids(cls, problem):
         start = problem.start_state()
@@ -80,7 +77,6 @@ class Search:
             while not stack.is_empty():
                 state, path, depth = stack.pop()
                 explored += 1
-
                 if problem.is_goal(state):
                     return path, explored
 
