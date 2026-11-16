@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="da5a1e04-3ba9-44e2-8015-c8cb9ec51519" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checknevis.py" beforeDir="false" afterPath="$PROJECT_DIR$/checknevis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ai/projects/puzzle8.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai/projects/puzzle8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilities/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/decorators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,22 +26,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.8-puzzle.executor": "Debug",
-    "Python.puzzle8.executor": "Debug",
-    "Python.queue.executor": "Run",
-    "Python.search.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/mahdi-mohajeri/python/scientificcomputing",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.8-puzzle.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.puzzle8.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.queue.executor&quot;: &quot;Run&quot;,
+    &quot;Python.search.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mahdi-mohajeri/python/scientificcomputing&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.puzzle8">
     <configuration name="8-puzzle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai" />
@@ -131,7 +130,7 @@
       <workItem from="1794472033002" duration="4899000" />
       <workItem from="1794479900596" duration="4531000" />
       <workItem from="1794639922142" duration="311000" />
-      <workItem from="1794669168762" duration="3899000" />
+      <workItem from="1794669168762" duration="10065000" />
     </task>
     <servers />
   </component>

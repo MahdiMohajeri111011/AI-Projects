@@ -30,7 +30,6 @@ class Puzzle8 :
             if 0 <= new_row < 3 and 0 <= new_column < 3 :
                 new_zero = new_row * 3 + new_column
                 new = list(state)
-
                 new[zero] , new[new_zero] = new[new_zero] , new[zero]
                 result.append((move , tuple(new)))
 
@@ -56,7 +55,7 @@ test1 = (1, 2, 3, 4, 0, 5, 6, 7, 8)
 test2 = (1, 2, 3, 0, 4, 5, 6, 7, 8)
 test3 = (1, 2, 3, 4, 5, 6, 8, 7, 0)
 
-problem = Puzzle8(test)
+problem = Puzzle8(test1)
 path, explored = Search.bfs(problem)
 if path is None:
     print(f"حل نشد | explored={explored}")

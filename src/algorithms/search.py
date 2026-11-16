@@ -87,3 +87,32 @@ class Search:
                     stack.push((nxt, path + move, depth + 1))
 
             limit += 1
+
+    @classmethod
+    def ucs(cls, problem):
+        start = problem.start_state()
+
+        if problem.is_goal(start):
+            return [], 0
+
+        hq = Queues.HeapQueue(max_size=500_000)
+        hq.enqueue((0, start, ""))
+        visited = {problem.key(start): 0}
+        explored = 0
+
+        while not hq.is_empty():
+            cost, state, path = hq.dequeue()
+            explored += 1
+
+            if problem.is_goal(state):
+                return path, explored
+
+            for move, nxt in problem.neighbors(state):
+                new_cost = cost + 1
+                key = problem.key(nxt)
+                if key in visited and visited[key] <= new_cost:
+                    continue
+                visited[key] = new_cost
+                hq.enqueue((new_cost, nxt, path + move))
+
+        return None, explored
