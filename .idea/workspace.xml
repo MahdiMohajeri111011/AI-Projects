@@ -7,7 +7,9 @@
     <list default="true" id="da5a1e04-3ba9-44e2-8015-c8cb9ec51519" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checknevis.py" beforeDir="false" afterPath="$PROJECT_DIR$/checknevis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ai/projects/puzzle8.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai/projects/puzzle8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructures/queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructures/tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/tree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +133,11 @@
       <workItem from="1794479900596" duration="4531000" />
       <workItem from="1794639922142" duration="311000" />
       <workItem from="1794669168762" duration="10065000" />
+      <workItem from="1794849122978" duration="3212000" />
+      <workItem from="1795270724270" duration="2871000" />
+      <workItem from="1795439791698" duration="6601000" />
+      <workItem from="1795539335149" duration="618000" />
+      <workItem from="1795598128742" duration="10386000" />
     </task>
     <servers />
   </component>
